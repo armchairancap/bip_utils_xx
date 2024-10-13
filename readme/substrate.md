@@ -26,6 +26,7 @@ Supported coins enumerative:
 |Polkadot|`SubstrateCoins.POLKADOT`|
 |Sora|`SubstrateCoins.SORA`|
 |Stafi|`SubstrateCoins.STAFI`|
+|xx|`SubstrateCoins.XX`|
 
 The code is structured so that it can be easily extended with other coins if needed.
 
