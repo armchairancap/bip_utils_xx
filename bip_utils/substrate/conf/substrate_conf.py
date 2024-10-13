@@ -72,3 +72,6 @@ class SubstrateConf:
 
     # Configuration for Stafi
     Stafi: SubstrateCoinConf = SubstrateCoinConf.FromCoinConf(CoinsConf.Stafi)
+    
+    # Configuration for XX
+    XX: SubstrateCoinConf = SubstrateCoinConf.FromCoinConf(CoinsConf.XX)

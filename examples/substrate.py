@@ -3,13 +3,14 @@
 from bip_utils import Bip39MnemonicGenerator, Bip39WordsNum, Substrate, SubstrateBip39SeedGenerator, SubstrateCoins
 
 
-# Generate random mnemonic
+# Generate random mnemonic using 24 words; you may need 12 words for another Substrate coin
 mnemonic = Bip39MnemonicGenerator().FromWordsNumber(Bip39WordsNum.WORDS_NUM_24)
 print(f"Mnemonic string: {mnemonic}")
+
 # Generate seed from mnemonic
 seed_bytes = SubstrateBip39SeedGenerator(mnemonic).Generate()
 
-# Construct from seed
+# Construct from seed using POLKADOT coin type
 substrate_ctx = Substrate.FromSeed(seed_bytes, SubstrateCoins.POLKADOT)
 # Print master keys and address
 print(f"Master private key (bytes): {substrate_ctx.PrivateKey().Raw().ToHex()}")

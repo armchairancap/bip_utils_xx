@@ -135,9 +135,10 @@ Supported Substrate coins:
 - Moonriver
 - Phala Network
 - Plasm Network
+- Polkadot
 - Sora
 - Stafi
-- Polkadot
+- xx Network
 - Generic Substrate coin
 
 For what regards Monero, it's also possible to generate the same addresses of the official wallets without using BIP44 derivation.

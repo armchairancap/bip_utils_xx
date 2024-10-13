@@ -47,6 +47,7 @@ class SubstrateConfGetterConst:
         SubstrateCoins.POLKADOT: SubstrateConf.Polkadot,
         SubstrateCoins.SORA: SubstrateConf.Sora,
         SubstrateCoins.STAFI: SubstrateConf.Stafi,
+        SubstrateCoins.XX: SubstrateConf.XX,
     }
 
 

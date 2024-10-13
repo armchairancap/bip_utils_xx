@@ -856,6 +856,14 @@ class CoinsConf:
             "wif_net_ver": b"\x9e",
         },
     )
+    
+    # Configuration for Xx
+    XX: CoinConf = CoinConf(
+        coin_name=CoinNames("xx", "xx"),
+        params={
+            "addr_ss58_format": 55,
+        },
+    )
 
     # Configuration for Zcash main net
     ZcashMainNet: CoinConf = CoinConf(

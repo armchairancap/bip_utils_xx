@@ -25,4 +25,4 @@ class EccConf:
     """ECC configuration class."""
 
     # True for using coincurve for secp256k1, false for using ecdsa
-    USE_COINCURVE: bool = True
+    USE_COINCURVE: bool = False

@@ -42,3 +42,4 @@ class SubstrateCoins(Enum):
     POLKADOT = auto()
     SORA = auto()
     STAFI = auto()
+    XX = auto()
